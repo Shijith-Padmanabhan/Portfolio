@@ -1,0 +1,18 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 20px 20% 0px 20%;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  li {
+    display: inline;
+    padding: 5px;
+    text-underline-offset: 10px;
+  }
+
+  li:hover{
+    text-decoration: underline;
+    font-weight: bolder;
+  }

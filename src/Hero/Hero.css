@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Borel&display=swap');
+
+.hero-image {
+    background-color: #000000;
+    height: 100vh;
+    width: 100%;
+    color: #ffffff;
+}
+
+.hero-content {
+  height: 100%  ;
+    display: flex;  
+    flex-direction: column;
+    justify-content: center ;
+}
+
+.my-photo {
+    border-radius: 50%;
+    width: 100%;
+    max-width: 250px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 50px;
+}
+
+.img-container {
+    width:100%;
+    display: flex;
+    justify-content: center;
+}
+
+.banner-text {
+    font-family: "Borel", cursive;
+    font-weight: 200;
+    font-style: normal;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.name {
+    font-size: 32px;
+}
+
+.hello {
+    font-size: 18px;
+    font-weight: 100;
+    font-style: italic;
+    margin: 0px 20px;
+}
+
+.i-am {
+   margin: 0px 20px;  
+}
+
+@media screen and (max-width: 768px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+     }
+
+     .banner-text {
+        
+     }
+  }
