@@ -2,11 +2,11 @@ const userData = {
     name: 'Shijith Padmanabhan',
     yob: 1996,
     currentCompany: 'Deloitte USI',
-    companyWebsite: '',
+    companyWebsite: 'https://www2.deloitte.com/ui/en.html',
     currentLocation: 'Bengaluru, Karnataka',
     highestEducaion: 'Engineering (B.Tech in Information Technology) degree holder',
     social: {
-        linkedIn: 'https://www.linkedin.com/in/shijith-padmanabhan-9b69a9132/',
+        linkedin: 'https://www.linkedin.com/in/shijith-padmanabhan-9b69a9132/',
         github: 'https://github.com/shijith-padmanabhan',
         gmail: 'mailto:shijith.sreekuttan@gmail.com',
         facebook: 'https://www.facebook.com/shijith.padmanabhan',

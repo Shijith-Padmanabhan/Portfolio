@@ -4,7 +4,7 @@ import './About.css';
 import userData from '../userData';
 
 const About = () => {
-    const { name, yob, currentCompany, currentLocation, highestEducaion, social: {
+    const { name, yob, currentCompany, companyWebsite, currentLocation, highestEducaion, social: {
         linkedIn,
         github
     } } = userData;
@@ -16,7 +16,7 @@ const About = () => {
             </div>
             <Social/>
             <p>
-                Hi, I am {name}, a {age} year old software developer (JavaScript stack), based out of {currentLocation}. I am an {highestEducaion} presently employed with {currentCompany}.
+                Hi, I am {name}, a {age} year old software developer (JavaScript stack), based out of {currentLocation}. I am an {highestEducaion} presently employed with <a href={companyWebsite} target='_blank' rel="noreferrer">{currentCompany}</a>.
             </p>
             <p>
                 Connect with me on <a href={linkedIn} target='_blank' rel="noreferrer">LinkedIn</a> for professional networking! I am game for any kind of conversation with like minded people. Lets have coffee together! Get in touch with me here.
