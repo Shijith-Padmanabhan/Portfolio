@@ -1,0 +1,42 @@
+.red {
+    color: red;;
+}
+
+.imageSpan {
+    width:20px;
+}
+
+.footer {
+    padding: 5%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-around;
+}
+
+.low-margin-p {
+    margin-top: 0px;
+    font-size: 14px;
+    color: grey;
+}
+
+.footer-sign {
+    line-height: normal;
+}
+
+.footer-end{
+    background: linear-gradient(to right, #ff0062,#ff2377, #ff3e88, #fc4b8f);
+    height: 40px;
+    width: 100%;
+}
+
+.footer-container {
+    bottom: 0px;
+}
+
+@media screen and (max-width: 768px) {
+    .footer{
+        flex-direction: column;
+    }
+}

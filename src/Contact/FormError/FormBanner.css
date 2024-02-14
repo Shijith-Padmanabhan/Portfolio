@@ -1,0 +1,11 @@
+.formError {
+    font-family: "Borel", cursive;
+    color: red;
+    margin: 10px 40px;
+}
+
+.formSuccess {
+    font-family: "Borel", cursive;
+    color: green;
+    margin: 10px 40px;
+}

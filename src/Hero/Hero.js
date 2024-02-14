@@ -9,12 +9,11 @@ const Hero = () => {
     const { name, adjectives } = userData;
     return (
         <div className='hero-image'>
-            <Navbar />
             <div className='hero-content'>
             <div className='grid-container'>
                 <div className='grid-child'>
                     <div className='img-container'>
-                        <img src='/myphoto.jpeg' alt='face shot' className='my-photo'></img>
+                        <img src={'/'+name+'.jpeg'} alt='face shot' className='my-photo'></img>
                     </div>
                 </div>
                 <div className='grid-child banner-text'>

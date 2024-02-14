@@ -10,7 +10,7 @@ const About = () => {
     } } = userData;
     const age = new Date().getFullYear() - yob; 
     return (
-        <div className='about'>
+        <div className='about' id="about" name="about">
             <div className='heading'>
                 <h1 className='heading-text'>About Me.</h1>
             </div>

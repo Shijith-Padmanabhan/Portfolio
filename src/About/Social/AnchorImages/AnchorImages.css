@@ -1,3 +1,8 @@
 .social-image{
     max-width: 50%;
+    opacity: 70%;
+}
+
+.social-image:hover {
+    opacity: 100%;
 }

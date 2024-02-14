@@ -1,0 +1,19 @@
+.skills{
+    padding: 5% 0%;
+    background-color: #f5f5f5;
+}
+
+.skill-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    justify-items: center;
+    margin: 20px 0px;
+}
+
+@media screen and (max-width: 768px) {
+    .skill-container {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+     }
+  }

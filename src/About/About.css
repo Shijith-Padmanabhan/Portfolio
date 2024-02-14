@@ -1,16 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Borel&display=swap');
 
-.heading {
-    display: flex;
-    justify-content: center;
-}
-
-.heading-text{
-    background: linear-gradient(to right, #ff0062,#ff2377, #ff3e88, #fc4b8f);
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
-}
-
 .about{
     padding: 5%;
 }
